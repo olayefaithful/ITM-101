@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Beige */
+    color: #000; /* Black */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4d3d09; /* Cream */
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* About section */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Social media icons */
+.socials {
+    text-align: center;
+    padding: 20px;
+}
+
+.socials h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #000; /* Black */
+    color: #f5f5dc; /* Beige */
+    padding: 20px 0;
+}
